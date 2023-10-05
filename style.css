@@ -10,6 +10,7 @@
     background-color: aliceblue;
     display: flex;
     flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 
 
@@ -39,9 +40,6 @@
 
 
   .content {
-
-    /* height: 80%; */
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -50,9 +48,17 @@
 
 }
 
+.content h1{
+    padding-top: 7%;
+}
+
 .content img {
     width: 80%;
-    height: 60%;
+    height: 55%;
     border-radius: 5%;
 }
 
+.content p{
+text-align: center;
+padding-top: 7%;
+}
