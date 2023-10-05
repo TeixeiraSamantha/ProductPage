@@ -25,12 +25,6 @@
 
 }
 
-.icon  {
-    /* display: flex; */
-    align-items: center;
-    justify-content: space-around;
-}
-
 .navbar img {
     width: 18%;
     padding-left: 2px;
@@ -65,7 +59,8 @@ padding-top: 7%;
 
 .footer{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    flex-wrap: wrap;
     padding: 2%;
 
 
