@@ -18,16 +18,16 @@
 .navbar {
     height: 5%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     
 
 }
 
 .icon  {
-    display: flex;
+    /* display: flex; */
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .navbar img {
@@ -38,5 +38,11 @@
 }
 
 
-  
+  .content {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    background-color: antiquewhite;
+
+}
 
